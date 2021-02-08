@@ -21,7 +21,7 @@ jobs:
 
       # Publish the site
       - name: Publish
-        run: dotnet publish BlazorGitHubPagesDemo/BlazorGitHubPagesDemo.csproj -c Release -o public -p:GHPages=true -p:PublishProfile="for GitHub Pages"
+        run: dotnet publish Portfolio/BlazorGitHubPagesDemo.csproj -c Release -o public -p:GHPages=true -p:PublishProfile="for GitHub Pages"
 
       # Deploy the site
       - name: Deploy
