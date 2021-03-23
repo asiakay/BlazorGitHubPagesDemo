@@ -288,6 +288,12 @@
           "lib/net5.0/Microsoft.JSInterop.WebAssembly.dll": {}
         }
       },
+      "PublishSPAforGitHubPages.Build/1.2.0": {
+        "type": "package",
+        "build": {
+          "build/PublishSPAforGitHubPages.Build.targets": {}
+        }
+      },
       "System.IO.Pipelines/5.0.1": {
         "type": "package",
         "compile": {
@@ -592,6 +598,12 @@
         },
         "runtime": {
           "lib/net5.0/Microsoft.JSInterop.WebAssembly.dll": {}
+        }
+      },
+      "PublishSPAforGitHubPages.Build/1.2.0": {
+        "type": "package",
+        "build": {
+          "build/PublishSPAforGitHubPages.Build.targets": {}
         }
       },
       "System.IO.Pipelines/5.0.1": {
@@ -1087,6 +1099,33 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "PublishSPAforGitHubPages.Build/1.2.0": {
+      "sha512": "XTvFO/ds6ZFDg22GmhlbQAVirw53U+7zd3FCnifNRRq4C2Q+OMipGtwDaO9qcTvW5oaJraDaO6AhTFViqLaE1g==",
+      "type": "package",
+      "path": "publishspaforgithubpages.build/1.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PublishSPAforGitHubPages.Build.targets",
+        "bundle/scripts/brotliloader.js",
+        "bundle/scripts/brotliloader.min.js",
+        "bundle/scripts/decode.js",
+        "bundle/scripts/decode.min.js",
+        "nupkg-icon.png",
+        "publishspaforgithubpages.build.1.2.0.nupkg.sha512",
+        "publishspaforgithubpages.build.nuspec",
+        "tools/Brotli.Core.dll",
+        "tools/PublishSPAforGitHubPages.Build.dll",
+        "tools/runtimes/linux/native/brolib_x64.so",
+        "tools/runtimes/linux/native/brolib_x86.so",
+        "tools/runtimes/osx/native/brolib_x64.dylib",
+        "tools/runtimes/win/native/brolib_x64.dll",
+        "tools/runtimes/win/native/brolib_x64.pdb",
+        "tools/runtimes/win/native/brolib_x86.dll",
+        "tools/runtimes/win/native/brolib_x86.pdb"
+      ]
+    },
     "System.IO.Pipelines/5.0.1": {
       "sha512": "qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
       "type": "package",
@@ -1140,6 +1179,7 @@
     "net5.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.2",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.2",
+      "PublishSPAforGitHubPages.Build >= 1.2.0",
       "System.Net.Http.Json >= 5.0.0"
     ]
   },
@@ -1149,11 +1189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/asialakaygradyloves/Documents/Portfolio/BlazorGitHubPagesDemo/BlazorGitHubPagesDemo.csproj",
+      "projectUniqueName": "/Users/asialakaygradyloves/aws/BlazorGitHubPagesDemo/BlazorGitHubPagesDemo/BlazorGitHubPagesDemo.csproj",
       "projectName": "BlazorGitHubPagesDemo",
-      "projectPath": "/Users/asialakaygradyloves/Documents/Portfolio/BlazorGitHubPagesDemo/BlazorGitHubPagesDemo.csproj",
+      "projectPath": "/Users/asialakaygradyloves/aws/BlazorGitHubPagesDemo/BlazorGitHubPagesDemo/BlazorGitHubPagesDemo.csproj",
       "packagesPath": "/Users/asialakaygradyloves/.nuget/packages/",
-      "outputPath": "/Users/asialakaygradyloves/Documents/Portfolio/BlazorGitHubPagesDemo/obj/",
+      "outputPath": "/Users/asialakaygradyloves/aws/BlazorGitHubPagesDemo/BlazorGitHubPagesDemo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/asialakaygradyloves/.nuget/NuGet/NuGet.Config"
@@ -1189,6 +1229,10 @@
             "target": "Package",
             "version": "[5.0.2, )"
           },
+          "PublishSPAforGitHubPages.Build": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
           "System.Net.Http.Json": {
             "target": "Package",
             "version": "[5.0.0, )"
@@ -1207,7 +1251,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.2, 5.0.2]"
+            "version": "[5.0.4, 5.0.4]"
           }
         ],
         "frameworkReferences": {
@@ -1215,7 +1259,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
