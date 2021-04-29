@@ -1,5 +1,5 @@
 # BlazorGitHubPagesDemo
-BlazorGitHubPagesDemo is an ASP.Net Core Blazor web application (app) with an interactive Counter component and a REST API component. It is a client side web user interface (UI) created with a software development (SDK) toolkit using Web Assembly Markup Language that integrates a composition of HTML, CSS, and C# in it's production. It contains a YAML file that contains instructions written in BASH that is used to automate deployment to GitHubPages.
+BlazorGitHubPagesDemo is an example of an ASP.Net Core WebAssembly single page application (SPA) with continuous integration & continuous deployment (CI/CD) to GitHub pages.  It's user interface (UI) demonstrates client side interactivity. The UI and and interactive modules were coded on the command-line (CLI) using the Blazor web framework.  It contains a YAML file that with instructions written in BASH used to trigger CI/CD.
 
 
 ## Installation
