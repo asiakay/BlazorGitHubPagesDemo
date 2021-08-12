@@ -19,3 +19,9 @@ or Get from JSON.
 
 
 ![.NET](https://github.com/asiakay/BlazorGitHubPagesDemo/workflows/.NET/badge.svg)
+
+
+### Further Reading for Future Development 
+- [Medium | Top 10 nice free Blazor components](https://medium.com/@alexandre.malavasi/top-10-nice-free-blazor-components-b42875e56b28)
+- [Fast.Design | Interfaces built with FAST adapt to your design system and can be used with any modern UI Framework](https://www.fast.design/)
+- [MudBlazor | Blazor components for faster and easier web development](https://mudblazor.com/)
